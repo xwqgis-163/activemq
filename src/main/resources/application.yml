@@ -1,5 +1,5 @@
 spring:
   activemq:
     broker-url: tcp://127.0.0.1:61616
-    user: jade1
+    user: cid1
     password: 123456

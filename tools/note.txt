@@ -1,0 +1,6 @@
+1. jetty密码（控制台）：jetty-realm.properties
+java -cp jetty-util-9.4.39.v20210325.jar org.eclipse.jetty.util.security.Password username password
+
+2. activemq.xml 密码：credentials-enc.properties
+%active_home%/activemq encrypt --password activemq --algorithm PBEWithMD5AndDES --input 123456
+%active_home%/activemq decrypt --password activemq --algorithm PBEWithMD5AndDES --input 22540rcuoZ21CnDwiiUXGA==
